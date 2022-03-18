@@ -24,9 +24,14 @@ body {
 .btn {
     background-color: var(--dark);
     color: var(--light);
-    padding: o.6rem 1.3rem;
+    padding: 0.6rem 1.3rem;
     text-decoration: none;
     border: 0;
+}
+
+.btn:hover {
+    background: var(--light);
+    color: var(--dark);
 }
 
 img {
@@ -164,3 +169,15 @@ img {
     width: 100%;
     box-shadow: var(--shadow);
 }
+
+/* Footer */
+
+footer {
+    margin-top: 2rem;
+    background: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Media Queries*/
